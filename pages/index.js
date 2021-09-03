@@ -52,7 +52,7 @@ export default function Home() {
               preserven para que las nuevas generaciones sepan nuestra cultura y
               gastronomia puneña.
             </p>
-            <Link href="#">
+            <Link href="/platos-tipicos">
               <a className="view-typical-dishes">
                 Ver Platos Típicos{" "}
                 <span>
