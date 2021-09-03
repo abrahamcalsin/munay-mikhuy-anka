@@ -1,0 +1,193 @@
+.cultura-puneña-presentation {
+  position: relative;
+  background-image: url(/images/bg-cultura-puneña.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  color: #fff;
+  outline: none;
+  word-wrap: break-word;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  @media (min-width: 1000px) {
+    & {
+      height: 100vh;
+      padding-top: 50px;
+    }
+  }
+
+  &::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  div {
+    z-index: 3;
+
+    h1 {
+      font-size: 27px;
+    }
+  }
+
+  .social-media {
+    position: absolute;
+    bottom: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .social-media-icon {
+      font-size: 20px;
+      text-decoration: none;
+      color: #fff;
+      text-align: center;
+
+      &:nth-child(3) {
+        margin: 0 15px;
+      }
+    }
+
+    @media (min-width: 1000px) {
+      & {
+        left: 0;
+        bottom: 150px;
+        width: 27.8%;
+
+        div {
+          width: 100%;
+          padding: 1.05px;
+          margin-right: 17px;
+          background-color: #fff;
+        }
+
+        .social-media-icon {
+          font-size: 25px;
+          width: 100px;
+
+          &:nth-child(3) {
+            margin: 0 -15px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1000px) {
+    & {
+      div {
+        h1 {
+          font-size: 65px;
+        }
+      }
+    }
+  }
+}
+
+.puno-history {
+  margin-top: 35px;
+  margin-bottom: 15px;
+
+  .flex-history-and-picture {
+    .history {
+      margin-bottom: 20px;
+
+      h1 {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 900;
+        text-align: center;
+        margin-bottom: 15px;
+      }
+      p {
+        margin: 0;
+        font-size: 16px;
+        line-height: 1.4;
+        text-align: justify;
+
+        @supports ((-webkit-hyphens: auto) or (hyphens: auto)) {
+          & {
+            text-align: justify;
+            -webkit-hyphens: auto;
+            hyphens: auto;
+          }
+        }
+      }
+    }
+
+    div:last-child {
+      width: 100%;
+      max-width: 100%;
+
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+  }
+
+  .photography-of-puno-after {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .container-responsive {
+    margin: auto;
+    max-width: 80rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media (min-width: 1000px) {
+    & {
+      margin-top: 110px;
+      margin-bottom: 50px;
+
+      .flex-history-and-picture {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+
+        .history {
+          width: 65%;
+
+          h1 {
+            margin: 0;
+            font-size: 30px;
+            font-weight: 900;
+            text-align: left;
+            margin-bottom: 15px;
+          }
+          p {
+            margin: 0;
+            font-size: 18px;
+            line-height: 1.4;
+          }
+        }
+        div:last-child {
+          width: 35%;
+        }
+      }
+    }
+  }
+}

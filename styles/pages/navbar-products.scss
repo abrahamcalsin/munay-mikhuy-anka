@@ -1,0 +1,13 @@
+.navbar-products {
+  display: none;
+
+  @media (min-width: 1000px) {
+    & {
+      display: inline-block;
+      background: #3b3d44;
+      width: 100%;
+      height: 135px;
+      overflow: hidden;
+    }
+  }
+}

@@ -1,0 +1,129 @@
+// .logo-color-product {
+//   color: #3b3d44 !important;
+// }
+// .link-color-product {
+//   color: #3b3d44 !important;
+// }
+
+.product-tostado-de-trigo {
+  margin-bottom: 50px;
+  margin-top: 110px;
+
+  .product-flex {
+    div:first-child {
+      width: 100%;
+      max-width: 100%;
+      border-radius: 13px;
+      overflow: hidden;
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 25px;
+
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+
+    div:last-child {
+      margin-top: 15px;
+
+      h1 {
+        margin: 0;
+        font-size: 25px;
+        font-weight: 800;
+      }
+      .fried-trout-star-rating {
+        margin-top: 3px;
+        margin-bottom: 15px;
+        display: flex;
+
+        p {
+          margin: 0;
+          font-size: 16px;
+
+          span:first-child {
+            margin-right: 5px;
+            font-weight: normal;
+            font-style: italic;
+          }
+          .star-icon {
+            color: #ffba0d;
+            opacity: 0.4;
+
+            &:nth-child(-n + 5) {
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      .order-link {
+        background: #1ebea5;
+        padding: 10px 13px;
+        border-radius: 999px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          text-decoration: underline;
+        }
+
+        .link-whatsapp-icon {
+          margin-right: 5px;
+          font-size: 15px;
+        }
+        span {
+          margin-left: 3px;
+          transition: all 0.3s ease;
+        }
+        &:hover span {
+          margin-left: 7px;
+        }
+      }
+    }
+  }
+
+  .container-responsive {
+    margin: auto;
+    max-width: 80rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media (min-width: 1000px) {
+    & {
+      margin-top: 250px;
+      margin-bottom: 150px;
+
+      .product-flex {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+
+        div:first-child {
+          width: 40%;
+        }
+        div:last-child {
+          width: 60%;
+
+          h1 {
+            font-size: 45px;
+          }
+          p {
+            font-size: 20px;
+            line-height: 1.5;
+            margin-bottom: 25px;
+          }
+
+          .order-link {
+            padding: 15px 13px;
+          }
+        }
+      }
+    }
+  }
+}

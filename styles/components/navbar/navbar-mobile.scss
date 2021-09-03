@@ -1,0 +1,136 @@
+.navbar-mobile {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  color: #3b3d44;
+  padding: 6px 25px 6px 20px;
+  z-index: 9;
+  transition: all 0.3s ease;
+
+  .container-responsive {
+    margin: auto;
+    max-width: 80rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo-munay-mikhuy-anka {
+      text-decoration: none;
+      color: #3b3d44;
+      transition: all 0.1s;
+
+      h1 {
+        margin: 0;
+        font-weight: 800;
+        font-size: 29px;
+      }
+      p {
+        font-size: 15px;
+        margin: 0;
+        margin-top: -7px;
+      }
+    }
+  }
+
+  div:last-child {
+    .checkbox-btn {
+      display: none;
+
+      &:checked ~ .container-menu-mobil {
+        right: 0;
+      }
+
+      &:checked ~ .btn-menu .lineOne-btn {
+        transform: rotate(45deg) translate(-2px, -3px) translateX(9px);
+        width: 63%;
+      }
+
+      &:checked ~ .btn-menu .lineTwo-btn {
+        transform: translateX(-4.5px);
+        width: 100%;
+      }
+
+      &:checked ~ .btn-menu .lineThree-btn {
+        transform: rotate(-45deg) translate(-2px, 3px) translateX(9px);
+        width: 63%;
+      }
+    }
+
+    .btn-menu {
+      display: inline-block;
+      width: 18px;
+      height: 17px;
+      margin-top: 5px;
+      cursor: pointer;
+
+      span {
+        background-color: #3b3d44;
+        transition: all 0.2s;
+
+        width: 100%;
+        height: 3px;
+        border-radius: 100px;
+      }
+
+      .lineOne-btn {
+        width: 23px;
+        height: 3px;
+        display: block;
+        transition: all 0.3s ease-in-out;
+      }
+      .lineTwo-btn {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin: 3px 0;
+      }
+      .lineThree-btn {
+        width: 23px;
+        height: 3px;
+        display: block;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+
+    .container-menu-mobil {
+      position: fixed;
+      margin: 0;
+      height: 100vh;
+      width: 100vw;
+      top: 58px;
+      right: -150%;
+      background-color: #fff;
+      border-top: 1px solid rgba(59, 61, 68, 0.1);
+      padding: 10px 0;
+      transition: all 0.3s ease-in-out;
+
+      .menu-link {
+        text-align: center;
+        display: block;
+        margin-top: 30px;
+        list-style: none;
+        font-size: 16px;
+
+        &:first-child {
+          margin-top: 50px;
+        }
+
+        a {
+          text-decoration: none;
+          font-weight: 600;
+          color: #3b3d44;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .navbar-mobile {
+    display: none;
+  }
+}

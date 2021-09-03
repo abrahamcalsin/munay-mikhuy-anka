@@ -1,0 +1,41 @@
+.footer-munay-mikhuy-anka {
+  background-color: #503106;
+
+  .container-responsive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-size: 13px;
+    margin: auto;
+    max-width: 102rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    p {
+      margin: 0;
+      color: #fff;
+
+      &:last-child {
+        margin-top: 5px;
+      }
+
+      span {
+        font-weight: 600;
+      }
+    }
+
+    @media (min-width: 1000px) {
+      & {
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,307 @@
+.platos-tipicos-presentation {
+  position: relative;
+  background-image: url(/images/bg-platos-tipicos.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  color: #fff;
+  outline: none;
+  word-wrap: break-word;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  @media (min-width: 1000px) {
+    & {
+      height: 100vh;
+      padding-top: 50px;
+    }
+  }
+
+  &::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  div {
+    z-index: 3;
+
+    h1 {
+      font-size: 27px;
+    }
+  }
+
+  .social-media {
+    position: absolute;
+    bottom: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .social-media-icon {
+      font-size: 20px;
+      text-decoration: none;
+      color: #fff;
+      text-align: center;
+
+      &:nth-child(3) {
+        margin: 0 15px;
+      }
+    }
+
+    @media (min-width: 1000px) {
+      & {
+        left: 0;
+        bottom: 150px;
+        width: 27.8%;
+
+        div {
+          width: 100%;
+          padding: 1.05px;
+          margin-right: 17px;
+          background-color: #fff;
+        }
+
+        .social-media-icon {
+          font-size: 25px;
+          width: 100px;
+
+          &:nth-child(3) {
+            margin: 0 -15px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1000px) {
+    & {
+      div {
+        h1 {
+          font-size: 65px;
+        }
+      }
+    }
+  }
+}
+
+.all-typical-dishes {
+  margin-top: 10px;
+  margin-bottom: 90px;
+
+  .description-section {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 30px;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .typical-dishes-grid {
+    .photo-typical-dish {
+      max-width: 100%;
+      width: 100%;
+      border-radius: 13px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+
+    .typical-dish {
+      margin-top: 50px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      div {
+        margin-top: 15px;
+
+        h1 {
+          margin: 0;
+          font-size: 25px;
+          font-weight: 800;
+        }
+        .chairo-star-rating {
+          margin-top: 3px;
+          margin-bottom: 13px;
+          display: flex;
+
+          p {
+            margin: 0;
+            font-size: 13px;
+
+            span:first-child {
+              margin-right: 5px;
+              font-weight: normal;
+              font-style: italic;
+            }
+            .star-icon {
+              color: #ffba0d;
+              opacity: 0.4;
+
+              &:nth-child(-n + 6) {
+                opacity: 1;
+              }
+            }
+          }
+        }
+        .pesque-star-rating {
+          margin-top: 3px;
+          margin-bottom: 13px;
+          display: flex;
+
+          p {
+            margin: 0;
+            font-size: 13px;
+
+            span:first-child {
+              margin-right: 5px;
+              font-weight: normal;
+              font-style: italic;
+            }
+            .star-icon {
+              color: #ffba0d;
+              opacity: 0.4;
+
+              &:nth-child(-n + 5) {
+                opacity: 1;
+              }
+            }
+          }
+        }
+        .fried-trout-star-rating {
+          margin-top: 3px;
+          margin-bottom: 13px;
+          display: flex;
+
+          p {
+            margin: 0;
+            font-size: 13px;
+
+            span:first-child {
+              margin-right: 5px;
+              font-weight: normal;
+              font-style: italic;
+            }
+            .star-icon {
+              color: #ffba0d;
+              opacity: 0.4;
+
+              &:nth-child(-n + 5) {
+                opacity: 1;
+              }
+            }
+          }
+        }
+        .chicharron-star-rating {
+          margin-top: 3px;
+          margin-bottom: 13px;
+          display: flex;
+
+          p {
+            margin: 0;
+            font-size: 13px;
+
+            span:first-child {
+              margin-right: 5px;
+              font-weight: normal;
+              font-style: italic;
+            }
+            .star-icon {
+              color: #ffba0d;
+              opacity: 0.4;
+
+              &:nth-child(-n + 6) {
+                opacity: 1;
+              }
+            }
+          }
+        }
+
+        .link-view-more {
+          background: #503106;
+          padding: 8px 13px;
+          border-radius: 999px;
+          color: #fff;
+          text-decoration: none;
+          font-size: 11px;
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            text-decoration: underline;
+          }
+
+          span {
+            margin-left: 3px;
+            transition: all 0.3s ease;
+          }
+          &:hover span {
+            margin-left: 7px;
+          }
+        }
+      }
+    }
+  }
+
+  .container-responsive {
+    margin: auto;
+    max-width: 80rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media (min-width: 1000px) {
+    & {
+      margin-top: 58px;
+
+      .section-title {
+        font-size: 25px;
+      }
+
+      .description-section {
+        text-align: left;
+        font-size: 30px;
+      }
+
+      .typical-dishes-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+        align-items: start;
+        grid-gap: 80px;
+        gap: 55px;
+
+        .typical-dish {
+          margin-top: 0;
+
+          div {
+            .link-view-more {
+              padding: 10px 13px;
+            }
+          }
+          div:first-child {
+            margin-top: 40px;
+          }
+        }
+      }
+    }
+  }
+}
