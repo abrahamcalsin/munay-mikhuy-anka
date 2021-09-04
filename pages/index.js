@@ -24,16 +24,18 @@ export default function Home() {
           <a
             href="https://instagram.com/munaymikhuyanka?utm_medium=copy_link"
             className="social-media-icon"
+            target="__blank"
           >
             <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a
             href="https://www.facebook.com/Munay-Mikhuy-Anka-108533731563552/"
             className="social-media-icon"
+            target="__blank"
           >
             <FontAwesomeIcon icon={faFacebookF} />
           </a>
-          <a href="https://bit.ly/3oDLyP6" className="social-media-icon">
+          <a href="https://bit.ly/3oDLyP6" className="social-media-icon" target="__blank">
             <FontAwesomeIcon icon={faWhatsapp} />
           </a>
         </div>
@@ -73,7 +75,7 @@ export default function Home() {
             <div>
               <h1>Ispi Frito</h1>
               <p>
-                El ispi es un Pez pequeño comestible del lago Titicaca. Tiene un valor
+                El Ispi es un Pez pequeño comestible del Lago Titicaca. Tiene un valor
                 nutritivo excelente, proporciona proteínas de gran calidad y una amplia
                 variedad de vitaminas y minerales, como las vitaminas A y D, fósforo,
                 magnesio y selenio.
@@ -87,8 +89,9 @@ export default function Home() {
             <div>
               <h1>El Solterito</h1>
               <p>
-                El solterito es una ensalada peruana contiene solo habas cocidas, cebolla,
-                tomate, queso fresco, papas y choclo cocidos, rocoto y perejil picado.
+                Soltero o el solterito es una ensalada Peruana, contiene habas cocidas,
+                cebolla, tomate, queso fresco, papas, choclo cocidos, rocoto y perejil
+                picado.
               </p>
             </div>
           </div>
@@ -276,7 +279,7 @@ export default function Home() {
         <blockquote className="quote">
           <span>{' " '}</span>
           Nuestra diversidad gastronómica, en tus manos.
-          <p>— Munay Mikhuy Anka</p>
+          <p>— Munay Mikhuy Anka —</p>
         </blockquote>
       </div>
 

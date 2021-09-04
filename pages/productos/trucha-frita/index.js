@@ -43,7 +43,7 @@ const TruchaFrita = () => {
               </p>
             </div>
             <p>
-              La trucha cuenta con un alto valor proteico que fortalece y acelera el
+              La Trucha cuenta con un alto valor proteico que fortalece y acelera el
               crecimiento de los músculos. Contribuye, también, con el desarrollo del
               cerebro y previene enfermedades cardiacas y mentales, debido a su rico
               contenido en omega 3.

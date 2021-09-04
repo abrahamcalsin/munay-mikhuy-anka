@@ -43,7 +43,7 @@ const Soltero = () => {
               </p>
             </div>
             <p>
-              Soltero o el solterito es una ensalada Peruana, contiene solo habas cocidas,
+              Soltero o el solterito es una ensalada Peruana, contiene habas cocidas,
               cebolla, tomate, queso fresco, papas, choclo cocidos, rocoto y perejil
               picado.
             </p>

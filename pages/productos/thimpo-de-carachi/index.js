@@ -46,10 +46,9 @@ const ThimpoDeCarachi = () => {
               </p>
             </div>
             <p>
-              Se prepara a base de pescado Carachi, pescado típico del lago Titicaca. El
-              carachi tiene alto contenido de fósforo. Si deseas puedes usar pejerrey o
-              mauri en vez de carachi. Se sirve con papas y chuños enteros, muña, cebolla,
-              ajo y ají.
+              Se prepara a base de pescado Carachi, pescado típico del Lago Titicaca. El
+              carachi tiene alto contenido de fósforo. Se sirve con papas y chuños
+              enteros, muña, cebolla, ajo y ají.
             </p>
             <a
               href="https://bit.ly/3oDLyP6"

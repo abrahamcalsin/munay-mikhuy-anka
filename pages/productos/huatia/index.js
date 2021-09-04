@@ -43,7 +43,7 @@ const Huatia = () => {
               </p>
             </div>
             <p>
-              Huatía o Pachamanca Este plato es preparado sobre todo en la época de las
+              Huatía o Pachamanca, este plato es preparado sobre todo en la época de las
               cosechas, se prepara en el campo, se prepara en un horno de tierra, primero
               se cava un hoyo y se colocan piedras que serán calentadas a grandes
               temperaturas a base de leña. Luego se colocan las papas, yucas, etc.

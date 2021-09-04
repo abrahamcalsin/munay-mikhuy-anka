@@ -22,16 +22,18 @@ const PlatosTipicos = () => {
           <a
             href="https://instagram.com/munaymikhuyanka?utm_medium=copy_link"
             className="social-media-icon"
+            target="__blank"
           >
             <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a
             href="https://www.facebook.com/Munay-Mikhuy-Anka-108533731563552/"
             className="social-media-icon"
+            target="__blank"
           >
             <FontAwesomeIcon icon={faFacebookF} />
           </a>
-          <a href="https://bit.ly/3oDLyP6" className="social-media-icon">
+          <a href="https://bit.ly/3oDLyP6" className="social-media-icon" target="__blank">
             <FontAwesomeIcon icon={faWhatsapp} />
           </a>
         </div>
@@ -42,6 +44,83 @@ const PlatosTipicos = () => {
           <p className="description-section">TODOS LOS PLATOS TÍPICOS</p>
 
           <div className="typical-dishes-grid">
+            <div className="typical-dish">
+              <div className="photo-typical-dish">
+                <img src="/images/platos-tipicos/chairo.png" alt="Chairo" />
+              </div>
+              <div>
+                <h1>Chairo</h1>
+                <div className="chicharron-star-rating">
+                  <p>
+                    <span>Valoración:</span>
+                    <span className="star-icon">
+                      <FontAwesomeIcon icon={faStar} />
+                    </span>
+                    <span className="star-icon">
+                      <FontAwesomeIcon icon={faStar} />
+                    </span>
+                    <span className="star-icon">
+                      <FontAwesomeIcon icon={faStar} />
+                    </span>
+                    <span className="star-icon">
+                      <FontAwesomeIcon icon={faStar} />
+                    </span>
+                    <span className="star-icon">
+                      <FontAwesomeIcon icon={faStar} />
+                    </span>
+                  </p>
+                </div>
+                <Link href="/productos/chairo">
+                  <a className="link-view-more">
+                    Más sobre Chairo{" "}
+                    <span>
+                      <FontAwesomeIcon icon={faLongArrowAltRight} />
+                    </span>
+                  </a>
+                </Link>
+              </div>
+            </div>
+
+            <div className="typical-dish">
+              <div className="photo-typical-dish">
+                <img
+                  src="/images/platos-tipicos/pesque-de-quinua.png"
+                  alt="Pesque de Quinua"
+                />
+              </div>
+              <div>
+                <h1>Pesque de Quinua</h1>
+                <div className="chairo-star-rating">
+                  <p>
+                    <span>Valoración:</span>
+                    <span className="star-icon">
+                      <FontAwesomeIcon icon={faStar} />
+                    </span>
+                    <span className="star-icon">
+                      <FontAwesomeIcon icon={faStar} />
+                    </span>
+                    <span className="star-icon">
+                      <FontAwesomeIcon icon={faStar} />
+                    </span>
+                    <span className="star-icon">
+                      <FontAwesomeIcon icon={faStar} />
+                    </span>
+                    <span className="star-icon">
+                      <FontAwesomeIcon icon={faStar} />
+                    </span>
+                  </p>
+                </div>
+                <Link href="/productos/pesque-de-quinua">
+                  <a className="link-view-more">
+                    Más sobre Pesque de Quinua{" "}
+                    <span>
+                      <FontAwesomeIcon icon={faLongArrowAltRight} />
+                    </span>
+                  </a>
+                </Link>
+              </div>
+            </div>
+
             <div className="typical-dish">
               <div className="photo-typical-dish">
                 <img src="/images/platos-tipicos/trucha-frita.png" alt="Trucha Frita" />
@@ -71,6 +150,46 @@ const PlatosTipicos = () => {
                 <Link href="/productos/trucha-frita">
                   <a className="link-view-more">
                     Más sobre Trucha Frita{" "}
+                    <span>
+                      <FontAwesomeIcon icon={faLongArrowAltRight} />
+                    </span>
+                  </a>
+                </Link>
+              </div>
+            </div>
+
+            <div className="typical-dish">
+              <div className="photo-typical-dish">
+                <img
+                  src="/images/platos-tipicos/chicharrón-de-alpaca.png"
+                  alt="Chicharrón de Alpaca"
+                />
+              </div>
+              <div>
+                <h1>Chicharrón de Alpaca</h1>
+                <div className="chicharron-star-rating">
+                  <p>
+                    <span>Valoración:</span>
+                    <span className="star-icon">
+                      <FontAwesomeIcon icon={faStar} />
+                    </span>
+                    <span className="star-icon">
+                      <FontAwesomeIcon icon={faStar} />
+                    </span>
+                    <span className="star-icon">
+                      <FontAwesomeIcon icon={faStar} />
+                    </span>
+                    <span className="star-icon">
+                      <FontAwesomeIcon icon={faStar} />
+                    </span>
+                    <span className="star-icon">
+                      <FontAwesomeIcon icon={faStar} />
+                    </span>
+                  </p>
+                </div>
+                <Link href="/productos/chicharron-de-alpaca">
+                  <a className="link-view-more">
+                    Más sobre Chicharrón de Alpaca{" "}
                     <span>
                       <FontAwesomeIcon icon={faLongArrowAltRight} />
                     </span>
@@ -393,46 +512,6 @@ const PlatosTipicos = () => {
             <div className="typical-dish">
               <div className="photo-typical-dish">
                 <img
-                  src="/images/platos-tipicos/pesque-de-quinua.png"
-                  alt="Pesque de Quinua"
-                />
-              </div>
-              <div>
-                <h1>Pesque de Quinua</h1>
-                <div className="chairo-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/pesque-de-quinua">
-                  <a className="link-view-more">
-                    Más sobre Pesque de Quinua{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img
                   src="/images/platos-tipicos/pejerrey-frito.png"
                   alt="Pejerrey Frito"
                 />
@@ -733,83 +812,6 @@ const PlatosTipicos = () => {
                 <Link href="/productos/chicharron-de-chancho">
                   <a className="link-view-more">
                     Más sobre Chicharrón de Chancho{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img
-                  src="/images/platos-tipicos/chicharrón-de-alpaca.png"
-                  alt="Chicharrón de Alpaca"
-                />
-              </div>
-              <div>
-                <h1>Chicharrón de Alpaca</h1>
-                <div className="chicharron-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/chicharron-de-alpaca">
-                  <a className="link-view-more">
-                    Más sobre Chicharrón de Alpaca{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img src="/images/platos-tipicos/chairo.png" alt="Chairo" />
-              </div>
-              <div>
-                <h1>Chairo</h1>
-                <div className="chicharron-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/chairo">
-                  <a className="link-view-more">
-                    Más sobre Chairo{" "}
                     <span>
                       <FontAwesomeIcon icon={faLongArrowAltRight} />
                     </span>

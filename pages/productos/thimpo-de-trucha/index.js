@@ -46,8 +46,8 @@ const ThimpoDeTrucha = () => {
               </p>
             </div>
             <p>
-              Thimpo de trucha, es un plato de la zona aymara de la región de Puno,
-              preparado con trucha del lago Titicaca, que siempre es fresca y sabrosa, el
+              Thimpo de Trucha, es un plato de la zona aymara de la región de Puno,
+              preparado con trucha del Lago Titicaca, que siempre es fresca y sabrosa, el
               sabor es exquisito y suave, condimentado con huaycha y acompañado con chuño
               y papa.
             </p>

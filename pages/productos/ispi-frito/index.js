@@ -43,7 +43,7 @@ const IspiFrito = () => {
               </p>
             </div>
             <p>
-              El ispi es un Pez pequeño comestible del lago Titicaca. Tiene un valor
+              El Ispi es un Pez pequeño comestible del Lago Titicaca. Tiene un valor
               nutritivo excelente, proporciona proteínas de gran calidad y una amplia
               variedad de vitaminas y minerales, como las vitaminas A y D, fósforo,
               magnesio y selenio.

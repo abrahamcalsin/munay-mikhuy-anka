@@ -43,7 +43,7 @@ const PejerreryFrito = () => {
               </p>
             </div>
             <p>
-              Pejerrey frito, es un plato típico de pescado rebozado Primero pasaremos el
+              Pejerrey frito, es un plato típico de pescado rebozado. Primero pasaremos el
               pejerrey por harina, luego por el huevo y finalmente por el pan rallado. De
               esta forma por fuera los peces quedarán crocantes y por dentro tiernos.
             </p>

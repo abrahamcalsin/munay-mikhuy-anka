@@ -46,7 +46,7 @@ const ChicharronDeAlpaca = () => {
               </p>
             </div>
             <p>
-              Mutritivo guiso puneño. Primero se cocina la carne hasta que se consuma el
+              Nutritivo guiso puneño. Primero se cocina la carne hasta que se consuma el
               agua, luego se dora con la misma grasa. Se sirve con chuño, papa y maíz
               serrano tostado (cancha serrana). A veces se sirve con salsa criolla. La
               carne de alpaca es reconocida como uno de los alimentos más nutritivos, ya

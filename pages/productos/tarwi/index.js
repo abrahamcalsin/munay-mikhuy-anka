@@ -44,9 +44,9 @@ const Tarwi = () => {
             </div>
             <p>
               Tarwi es un superalimento andino, se consume desde tiempos ancestrales y que
-              es considerada un superalimento por su gran aporte nutricional. resaltan su
+              es considerada un superalimento por su gran aporte nutricional. Resaltan su
               alto contenido de calcio, que lo convierte en un gran alimento para quienes
-              desean mantener dientes y huesos sanos.
+              desean mantener los dientes y huesos sanos.
             </p>
             <a
               href="https://bit.ly/3oDLyP6"

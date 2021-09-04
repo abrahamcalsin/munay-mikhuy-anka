@@ -47,10 +47,9 @@ const PesqueDeQuinua = () => {
             </div>
             <p>
               El pesque de Quinua es un guiso originario de Perú, concretamente de la
-              ciudad de Puno. En esta ciudad este plato tiene una importancia como ningún
-              otro, ya que se consume habitualmente. Además, para ellos es importante
-              degustarlo en la fecha del Viernes Santo de cada año por tradición de los
-              puneños.
+              ciudad de Puno. Aqui este plato tiene una importancia como ningún otro, ya
+              que se consume habitualmente. Además, para nosotros es importante degustarlo
+              en la fecha del Viernes Santo de cada año por tradición de los puneños.
             </p>
             <a
               href="https://bit.ly/3oDLyP6"
