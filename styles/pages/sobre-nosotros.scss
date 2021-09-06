@@ -1,0 +1,157 @@
+.about-us {
+  margin-top: 100px;
+  margin-bottom: 45px;
+
+  h1,
+  p {
+    margin: 0;
+  }
+
+  .logo-on-box {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 13px;
+    overflow: hidden;
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 25px;
+
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+  .description-about-us {
+    margin-top: 30px;
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.4;
+      margin-bottom: 20px;
+
+      span {
+        font-weight: 800;
+      }
+    }
+
+    div {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+
+      a {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 5px;
+        padding: 7px 12px;
+        box-shadow: rgb(0 0 0 / 20%) 0px 5px 25px;
+
+        span {
+          margin-right: 3px;
+        }
+      }
+
+      a:first-child {
+        background: #1877f2;
+      }
+      a:nth-child(2) {
+        background: linear-gradient(#d6249f, #fd5949);
+      }
+      a:last-child {
+        background: #1ebea5;
+      }
+    }
+  }
+
+  .more-services {
+    margin-top: 50px;
+
+    h1 {
+      font-size: 22px;
+      font-weight: 900;
+    }
+
+    .grid-more-services {
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+      justify-content: center;
+      align-items: start;
+      grid-gap: 80px;
+      gap: 30px 30px;
+
+      div {
+        display: flex;
+      }
+
+      p {
+        background: #fff;
+        padding: 10px 15px;
+        border-radius: 7px;
+        background: linear-gradient(145deg, #f0f0f0, #ffffff);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        span {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  .container-responsive {
+    margin: auto;
+    max-width: 80rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media (min-width: 1000px) {
+    & {
+      margin-top: 115px;
+      margin-bottom: 115px;
+
+      .logo-on-box {
+        width: 30%;
+      }
+
+      .description-about-us {
+        width: 70%;
+        margin-top: 0;
+
+        h1 {
+          font-size: 45px;
+          font-weight: 800;
+        }
+        p {
+          margin: 10px 0 20px 0;
+          font-size: 20px;
+        }
+      }
+      .desk-flex-about-us {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+      }
+
+      .more-services {
+        margin-top: 90px;
+
+        h1 {
+          text-align: center;
+          font-size: 30px;
+        }
+
+        .grid-more-services {
+          margin-top: 50px;
+          gap: 40px 30px;
+        }
+      }
+    }
+  }
+}

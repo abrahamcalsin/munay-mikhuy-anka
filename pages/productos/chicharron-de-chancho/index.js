@@ -25,7 +25,7 @@ const ChicharronDeChancho = () => {
           </div>
           <div>
             <h1>Chicharrón de Chancho</h1>
-            <div className="fried-trout-star-rating">
+            <div className="chicharron-de-chancho-star-rating">
               <p>
                 <span>Valoración:</span>
                 <span className="star-icon">

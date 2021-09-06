@@ -22,7 +22,7 @@ const Tarwi = () => {
           </div>
           <div>
             <h1>Tarwi</h1>
-            <div className="fried-trout-star-rating">
+            <div className="tarwi-star-rating">
               <p>
                 <span>Valoración:</span>
                 <span className="star-icon">

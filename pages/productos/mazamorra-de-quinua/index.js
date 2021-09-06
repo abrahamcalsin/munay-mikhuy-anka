@@ -25,7 +25,7 @@ const MazamorraDeQuinua = () => {
           </div>
           <div>
             <h1>Mazamorra de Quinua</h1>
-            <div className="fried-trout-star-rating">
+            <div className="mazamorra-de-quinua-star-rating">
               <p>
                 <span>Valoración:</span>
                 <span className="star-icon">
@@ -46,14 +46,10 @@ const MazamorraDeQuinua = () => {
               </p>
             </div>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and scrambled it to make a
-              type specimen book. It has survived not only five centuries, but also the
-              leap into electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets containing
-              Lorem Ipsum passages, and more recently with desktop publishing software
-              like Aldus PageMaker including versions of Lorem Ipsum.
+              Son molidos en molinos de piedra y a mano, nos brinda su hariana que nos
+              sirve para preparar la muy conocida mazamorra de quinua, la que fortifica
+              los huesos, este plato se consume ya sea con leche fresca, o solo pura
+              mazamorra o con, cañihuaco molida.
             </p>
             <a
               href="https://bit.ly/3oDLyP6"

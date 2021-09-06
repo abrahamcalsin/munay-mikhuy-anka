@@ -22,7 +22,7 @@ const TruchaFrita = () => {
           </div>
           <div>
             <h1>Trucha Frita</h1>
-            <div className="fried-trout-star-rating">
+            <div className="trucha-frita-star-rating">
               <p>
                 <span>Valoración:</span>
                 <span className="star-icon">

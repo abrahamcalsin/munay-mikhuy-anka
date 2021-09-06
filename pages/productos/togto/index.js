@@ -22,7 +22,7 @@ const Togto = () => {
           </div>
           <div>
             <h1>Togto</h1>
-            <div className="fried-trout-star-rating">
+            <div className="togto-star-rating">
               <p>
                 <span>Valoración:</span>
                 <span className="star-icon">
@@ -43,14 +43,9 @@ const Togto = () => {
               </p>
             </div>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the standard dummy text ever since the 1500s, when an
-              unknown printer took a galley of type and scrambled it to make a type
-              specimen book. It has survived not only five centuries, but also the leap
-              into electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets containing
-              Lorem Ipsum passages, and more recently with desktop publishing software
-              like Aldus PageMaker including versions of Lorem Ipsum.
+              Hecho principalmente a base de harina de trigo, una especie de pan casero
+              sin levadura, con agua y alguna variante, frito en aceite, manteca si así lo
+              prefiere.
             </p>
             <a
               href="https://bit.ly/3oDLyP6"

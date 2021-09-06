@@ -22,7 +22,7 @@ const Huatia = () => {
           </div>
           <div>
             <h1>Huatia</h1>
-            <div className="fried-trout-star-rating">
+            <div className="huatia-star-rating">
               <p>
                 <span>Valoración:</span>
                 <span className="star-icon">

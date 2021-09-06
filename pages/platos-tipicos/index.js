@@ -48,9 +48,9 @@ const PlatosTipicos = () => {
               <div className="photo-typical-dish">
                 <img src="/images/platos-tipicos/chairo.png" alt="Chairo" />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Chairo</h1>
-                <div className="chicharron-star-rating">
+                <div className="chairo-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -88,9 +88,9 @@ const PlatosTipicos = () => {
                   alt="Pesque de Quinua"
                 />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Pesque de Quinua</h1>
-                <div className="chairo-star-rating">
+                <div className="pesque-de-quinua-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -125,9 +125,9 @@ const PlatosTipicos = () => {
               <div className="photo-typical-dish">
                 <img src="/images/platos-tipicos/trucha-frita.png" alt="Trucha Frita" />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Trucha Frita</h1>
-                <div className="fried-trout-star-rating">
+                <div className="trucha-frita-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -165,9 +165,9 @@ const PlatosTipicos = () => {
                   alt="Chicharrón de Alpaca"
                 />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Chicharrón de Alpaca</h1>
-                <div className="chicharron-star-rating">
+                <div className="chicharron-de-alpaca-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -205,9 +205,9 @@ const PlatosTipicos = () => {
                   alt="Tostado de Trigo"
                 />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Tostado de Trigo</h1>
-                <div className="chairo-star-rating">
+                <div className="tostado-de-trigo-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -245,9 +245,9 @@ const PlatosTipicos = () => {
                   alt="Torta de Quinua"
                 />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Torta de Quinua</h1>
-                <div className="chairo-star-rating">
+                <div className="torta-de-quinua-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -282,9 +282,9 @@ const PlatosTipicos = () => {
               <div className="photo-typical-dish">
                 <img src="/images/platos-tipicos/togto.png" alt="Togto" />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Togto</h1>
-                <div className="chairo-star-rating">
+                <div className="togto-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -322,9 +322,9 @@ const PlatosTipicos = () => {
                   alt="Thimpo de Trucha"
                 />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Thimpo de Trucha</h1>
-                <div className="chairo-star-rating">
+                <div className="thimpo-de-trucha-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -362,9 +362,9 @@ const PlatosTipicos = () => {
                   alt="Thimpo de Carachi"
                 />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Thimpo de Carachi</h1>
-                <div className="chairo-star-rating">
+                <div className="thimpo-de-carachi-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -399,9 +399,9 @@ const PlatosTipicos = () => {
               <div className="photo-typical-dish">
                 <img src="/images/platos-tipicos/tarwi.png" alt="Tarwi" />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Tarwi</h1>
-                <div className="chairo-star-rating">
+                <div className="tarwi-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -439,9 +439,9 @@ const PlatosTipicos = () => {
                   alt="Sopa de Quinua"
                 />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Sopa de Quinua</h1>
-                <div className="chairo-star-rating">
+                <div className="sopa-de-quinua-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -476,9 +476,9 @@ const PlatosTipicos = () => {
               <div className="photo-typical-dish">
                 <img src="/images/platos-tipicos/soltero.png" alt="Soltero" />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Soltero</h1>
-                <div className="chairo-star-rating">
+                <div className="soltero-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -516,9 +516,9 @@ const PlatosTipicos = () => {
                   alt="Pejerrey Frito"
                 />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Pejerrey Frito</h1>
-                <div className="chairo-star-rating">
+                <div className="pejerrey-frito-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -556,9 +556,9 @@ const PlatosTipicos = () => {
                   alt="Mazamorra de Quinua"
                 />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Mazamorra de Quinua</h1>
-                <div className="chairo-star-rating">
+                <div className="mazamorra-de-quinua-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -593,9 +593,9 @@ const PlatosTipicos = () => {
               <div className="photo-typical-dish">
                 <img src="/images/platos-tipicos/quispiña.png" alt="Quispiña" />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Quispiña</h1>
-                <div className="chairo-star-rating">
+                <div className="quispiña-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -633,9 +633,9 @@ const PlatosTipicos = () => {
                   alt="Kankacho Ayavireño"
                 />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Kankacho Ayavireño</h1>
-                <div className="chairo-star-rating">
+                <div className="kankacho-ayavireño-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -673,9 +673,9 @@ const PlatosTipicos = () => {
                   alt="Jugo de Quinua"
                 />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Jugo de Quinua</h1>
-                <div className="chairo-star-rating">
+                <div className="jugo-de-quinua-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -710,9 +710,9 @@ const PlatosTipicos = () => {
               <div className="photo-typical-dish">
                 <img src="/images/platos-tipicos/ispi-frito.png" alt="Ispi Frito" />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Ispi Frito</h1>
-                <div className="pesque-star-rating">
+                <div className="ispi-frito-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -747,9 +747,9 @@ const PlatosTipicos = () => {
               <div className="photo-typical-dish">
                 <img src="/images/platos-tipicos/huatia.png" alt="Huatia" />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Huatia</h1>
-                <div className="chicharron-star-rating">
+                <div className="huatia-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -787,9 +787,9 @@ const PlatosTipicos = () => {
                   alt="Chicharrón de Chancho"
                 />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Chicharrón de Chancho</h1>
-                <div className="chicharron-star-rating">
+                <div className="chicharron-de-chancho-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -827,9 +827,9 @@ const PlatosTipicos = () => {
                   alt="Agua de Cebada"
                 />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Agua de Cebada</h1>
-                <div className="chicharron-star-rating">
+                <div className="agua-de-cebada-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -867,9 +867,9 @@ const PlatosTipicos = () => {
                   alt="Chupe de Quinua"
                 />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Chupe de Quinua</h1>
-                <div className="chicharron-star-rating">
+                <div className="chupe-de-quinua-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -907,9 +907,9 @@ const PlatosTipicos = () => {
                   alt="Chupe de Quinua"
                 />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Sudado de Trucha</h1>
-                <div className="chicharron-star-rating">
+                <div className="sudado-de-trucha-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">

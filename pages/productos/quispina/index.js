@@ -22,7 +22,7 @@ const Quispiña = () => {
           </div>
           <div>
             <h1>Quispiña</h1>
-            <div className="fried-trout-star-rating">
+            <div className="quispiña-rating">
               <p>
                 <span>Valoración:</span>
                 <span className="star-icon">

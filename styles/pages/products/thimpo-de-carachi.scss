@@ -31,30 +31,6 @@
         font-size: 25px;
         font-weight: 800;
       }
-      .fried-trout-star-rating {
-        margin-top: 3px;
-        margin-bottom: 15px;
-        display: flex;
-
-        p {
-          margin: 0;
-          font-size: 16px;
-
-          span:first-child {
-            margin-right: 5px;
-            font-weight: normal;
-            font-style: italic;
-          }
-          .star-icon {
-            color: #ffba0d;
-            opacity: 0.4;
-
-            &:nth-child(-n + 5) {
-              opacity: 1;
-            }
-          }
-        }
-      }
 
       .order-link {
         background: #1ebea5;
@@ -71,8 +47,8 @@
         }
 
         .link-whatsapp-icon {
-          margin-right: 5px;
-          font-size: 15px;
+          margin-right: 7px;
+          font-size: 20px;
         }
         span {
           margin-left: 3px;

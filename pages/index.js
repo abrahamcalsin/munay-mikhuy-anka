@@ -122,7 +122,7 @@ export default function Home() {
               <div className="photo-typical-dish">
                 <img src="/images/platos-tipicos/chairo.png" alt="Chairo" />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Chairo</h1>
                 <div className="chairo-star-rating">
                   <p>
@@ -162,9 +162,9 @@ export default function Home() {
                   alt="Pesque de Quinua"
                 />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Pesque de Quinua</h1>
-                <div className="pesque-star-rating">
+                <div className="pesque-de-quinua-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -199,9 +199,9 @@ export default function Home() {
               <div className="photo-typical-dish">
                 <img src="/images/platos-tipicos/trucha-frita.png" alt="Trucha Frita" />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Trucha Frita</h1>
-                <div className="fried-trout-star-rating">
+                <div className="trucha-frita-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -239,9 +239,9 @@ export default function Home() {
                   alt="Chicharrón de Alpaca"
                 />
               </div>
-              <div>
+              <div className="product-typical-dish-rating">
                 <h1>Chicharrón de Alpaca</h1>
-                <div className="chicharron-star-rating">
+                <div className="chicharron-de-alpaca-star-rating">
                   <p>
                     <span>Valoración:</span>
                     <span className="star-icon">
@@ -289,19 +289,19 @@ export default function Home() {
             <span>{' " '}</span>
             La excelencia está en la diversidad y el modo de progresar es conocer y
             comparar las diversidades de productos, culturas y técnicas.
-            <p>— Ferrán Adrià</p>
+            <p>— Alain Ducasse</p>
           </blockquote>
           <blockquote className="quote">
             <span>{' " '}</span>
             La cocina es un lenguaje mediante el cual se puede expresar armonía,
             felicidad, belleza, poesía, complejidad, magia, humor, provocación, cultura
-            <p>— Pedro Subijana</p>
+            <p>— Ferrán Adrià</p>
           </blockquote>
           <blockquote className="quote">
             <span>{' " '}</span>
             Cuando los clientes conocen las técnicas precisas para hacer alta cocina
             valoran y disfrutan mucho más los platos que les servimos
-            <p>— Gastón Acurio</p>
+            <p>— Pedro Subijana</p>
           </blockquote>
         </div>
       </div>

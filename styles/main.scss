@@ -7,9 +7,12 @@
 @import "./components/footer.scss";
 @import "./pages/platos-tipicos.scss";
 @import "./pages/cultura-puneña.scss";
+@import "./pages/sobre-nosotros.scss";
+@import "./components/star-rating.scss";
 
-@import "./pages/navbar-products.scss";
 //Products
+@import "./pages/navbar-products.scss";
+
 @import "./pages/products/trucha-frita.scss";
 @import "./pages/products/tostado-de-trigo.scss";
 @import "./pages/products/torta-de-quinua.scss";

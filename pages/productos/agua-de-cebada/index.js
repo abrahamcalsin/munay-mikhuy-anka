@@ -22,7 +22,7 @@ const AguaDeCebada = () => {
           </div>
           <div>
             <h1>Agua de Cebada</h1>
-            <div className="fried-trout-star-rating">
+            <div className="agua-de-cebada-star-rating">
               <p>
                 <span>Valoración:</span>
                 <span className="star-icon">

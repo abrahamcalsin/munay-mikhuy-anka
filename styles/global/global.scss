@@ -11,6 +11,11 @@ body {
   color: #3b3d44;
 }
 
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 ::-webkit-scrollbar-track {
   border-radius: 10px;
   background-color: #ddd;

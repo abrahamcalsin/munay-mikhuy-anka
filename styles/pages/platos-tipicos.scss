@@ -63,12 +63,12 @@
       & {
         left: 0;
         bottom: 150px;
-        width: 27.8%;
+        width: 25%;
 
         div {
           width: 100%;
           padding: 1.05px;
-          margin-right: 17px;
+          margin-right: 7px;
           background-color: #fff;
         }
 
@@ -116,6 +116,7 @@
       width: 100%;
       border-radius: 13px;
       overflow: hidden;
+      box-shadow: rgb(0 0 0 / 20%) 0px 5px 25px;
 
       img {
         width: 100%;
@@ -130,109 +131,13 @@
         margin-top: 0;
       }
 
-      div {
+      .product-typical-dish-rating {
         margin-top: 15px;
 
         h1 {
           margin: 0;
           font-size: 25px;
           font-weight: 800;
-        }
-        .chairo-star-rating {
-          margin-top: 3px;
-          margin-bottom: 13px;
-          display: flex;
-
-          p {
-            margin: 0;
-            font-size: 13px;
-
-            span:first-child {
-              margin-right: 5px;
-              font-weight: normal;
-              font-style: italic;
-            }
-            .star-icon {
-              color: #ffba0d;
-              opacity: 0.4;
-
-              &:nth-child(-n + 6) {
-                opacity: 1;
-              }
-            }
-          }
-        }
-        .pesque-star-rating {
-          margin-top: 3px;
-          margin-bottom: 13px;
-          display: flex;
-
-          p {
-            margin: 0;
-            font-size: 13px;
-
-            span:first-child {
-              margin-right: 5px;
-              font-weight: normal;
-              font-style: italic;
-            }
-            .star-icon {
-              color: #ffba0d;
-              opacity: 0.4;
-
-              &:nth-child(-n + 5) {
-                opacity: 1;
-              }
-            }
-          }
-        }
-        .fried-trout-star-rating {
-          margin-top: 3px;
-          margin-bottom: 13px;
-          display: flex;
-
-          p {
-            margin: 0;
-            font-size: 13px;
-
-            span:first-child {
-              margin-right: 5px;
-              font-weight: normal;
-              font-style: italic;
-            }
-            .star-icon {
-              color: #ffba0d;
-              opacity: 0.4;
-
-              &:nth-child(-n + 5) {
-                opacity: 1;
-              }
-            }
-          }
-        }
-        .chicharron-star-rating {
-          margin-top: 3px;
-          margin-bottom: 13px;
-          display: flex;
-
-          p {
-            margin: 0;
-            font-size: 13px;
-
-            span:first-child {
-              margin-right: 5px;
-              font-weight: normal;
-              font-style: italic;
-            }
-            .star-icon {
-              color: #ffba0d;
-              opacity: 0.4;
-
-              &:nth-child(-n + 6) {
-                opacity: 1;
-              }
-            }
-          }
         }
 
         .link-view-more {

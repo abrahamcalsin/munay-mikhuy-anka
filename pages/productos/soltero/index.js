@@ -22,7 +22,7 @@ const Soltero = () => {
           </div>
           <div>
             <h1>Soltero</h1>
-            <div className="fried-trout-star-rating">
+            <div className="soltero-rating">
               <p>
                 <span>Valoración:</span>
                 <span className="star-icon">

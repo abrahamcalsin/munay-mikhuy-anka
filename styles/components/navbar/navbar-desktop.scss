@@ -18,8 +18,11 @@
     & .logo-munay-mikhuy-anka {
       color: #3b3d44 !important;
     }
-    & .container-menu-desk .menu-link a {
+    & .container-menu-desk .menu-link .navTabLink {
       color: #3b3d44;
+    }
+    & .container-menu-desk .menu-link .navTabLink.activeNavTabLink::after {
+      background: #3b3d44;
     }
   }
 
@@ -52,6 +55,7 @@
       display: flex;
       padding: 0;
       margin: 0;
+      margin-bottom: 5px;
 
       li {
         list-style: none;
@@ -61,11 +65,24 @@
           margin-left: 0;
         }
 
-        a {
+        .navTabLink {
+          position: relative;
           color: #fff;
           font-weight: 600;
           text-decoration: none;
           transition: all 0.1s;
+
+          &.activeNavTabLink::after {
+            content: " ";
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 4px;
+            margin-top: 2px;
+            background: #fff;
+            border-radius: 50px;
+            transition: all 0.1s;
+          }
         }
       }
     }

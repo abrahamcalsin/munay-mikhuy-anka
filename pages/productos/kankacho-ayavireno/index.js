@@ -25,7 +25,7 @@ const KankachoAyavireño = () => {
           </div>
           <div>
             <h1>Kankacho Ayavireño</h1>
-            <div className="fried-trout-star-rating">
+            <div className="kankacho-ayavireño-star-rating">
               <p>
                 <span>Valoración:</span>
                 <span className="star-icon">

@@ -25,7 +25,7 @@ const PesqueDeQuinua = () => {
           </div>
           <div>
             <h1>Pesque de Quinua</h1>
-            <div className="fried-trout-star-rating">
+            <div className="pesque-de-quinua-star-rating">
               <p>
                 <span>Valoración:</span>
                 <span className="star-icon">

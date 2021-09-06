@@ -1,6 +1,23 @@
 import React, { useState, useEffect } from "react";
+import { useRouter } from "next/dist/client/router";
 import clsx from "clsx";
 import Link from "next/link";
+
+const NavTabLink = (props) => {
+  const { href, contentLink } = props;
+
+  const router = useRouter();
+
+  const activelinkSelect = router.pathname === href;
+
+  return (
+    <Link href={href}>
+      <a className={clsx("navTabLink", activelinkSelect && "activeNavTabLink")}>
+        {contentLink}
+      </a>
+    </Link>
+  );
+};
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -40,24 +57,16 @@ const Navbar = () => {
 
           <ul className="container-menu-desk">
             <li className="menu-link">
-              <Link href="/">
-                <a className="link-color-product">Inicio</a>
-              </Link>
+              <NavTabLink href="/" contentLink="Inicio" />
             </li>
             <li className="menu-link">
-              <Link href="/platos-tipicos">
-                <a className="link-color-product">Platos Típicos</a>
-              </Link>
+              <NavTabLink href="/platos-tipicos" contentLink="Platos Típicos" />
             </li>
             <li className="menu-link">
-              <Link href="/cultura-punena">
-                <a className="link-color-product">Cultura Puneña</a>
-              </Link>
+              <NavTabLink href="/cultura-punena" contentLink="Cultura Puneña" />
             </li>
             <li className="menu-link">
-              <Link href="#">
-                <a className="link-color-product">Sobre Nosotros</a>
-              </Link>
+              <NavTabLink href="/sobre-nosotros" contentLink="Sobre Nosotros" />
             </li>
           </ul>
         </div>
@@ -98,7 +107,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="menu-link">
-                <Link href="#">
+                <Link href="/sobre-nosotros">
                   <a>Sobre Nosotros</a>
                 </Link>
               </li>

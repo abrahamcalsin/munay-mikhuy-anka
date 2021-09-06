@@ -25,7 +25,7 @@ const ThimpoDeCarachi = () => {
           </div>
           <div>
             <h1>Thimpo de Carachi</h1>
-            <div className="fried-trout-star-rating">
+            <div className="thimpo-de-carachi-star-rating">
               <p>
                 <span>Valoración:</span>
                 <span className="star-icon">
