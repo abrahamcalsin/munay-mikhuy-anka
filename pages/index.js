@@ -5,7 +5,11 @@ import Link from "next/dist/client/link";
 // Font Awesome Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faFacebookF, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { faStar, faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faStar,
+  faLongArrowAltRight,
+  faMapMarkerAlt,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
@@ -62,6 +66,19 @@ export default function Home() {
                 </span>
               </a>
             </Link>
+            <div className="place-of-order-fulfillment">
+              <a
+                href="https://www.google.com/maps/place/Puno/@-15.8467711,-70.0514078,13z/data=!3m1!4b1!4m5!3m4!1s0x915d6985f4e74135:0x1e341dd8f24d32cf!8m2!3d-15.8402218!4d-70.0218805"
+                target="__blank"
+                rel="noreferrer"
+                title="Ver Puno en Google Maps"
+              >
+                <span>
+                  <FontAwesomeIcon icon={faMapMarkerAlt} />
+                </span>
+                Pedidos solo en Puno - Perú
+              </a>
+            </div>
           </div>
         </div>
       </div>
