@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap");
 @import "./global/global.scss";
+@import "./components//container-responsive.scss";
 @import "./home.scss";
 @import "./components/navbar/navbar-desktop.scss";
 @import "./components/navbar/navbar-mobile.scss";
@@ -12,27 +13,5 @@
 
 //Products
 @import "./pages/navbar-products.scss";
-
-@import "./pages/products/trucha-frita.scss";
-@import "./pages/products/tostado-de-trigo.scss";
-@import "./pages/products/torta-de-quinua.scss";
-@import "./pages/products/togto.scss";
-@import "./pages//products/thimpo-de-trucha.scss";
-@import "./pages/products/thimpo-de-carachi.scss";
-@import "./pages/products/tarwi.scss";
-@import "./pages/products/sopa-de-quinua.scss";
-@import "./pages//products//soltero.scss";
-@import "./pages//products//pesque-de-quinua.scss";
-@import "./pages//products//pejerrey-frito.scss";
-@import "./pages/products/mazamorra-de-quinua.scss";
-@import "./pages/products/quispiña.scss";
-@import "./pages/products/kankacho-ayavireño.scss";
-@import "./pages/products/jugo-de-quinua.scss";
-@import "./pages/products/ispi-frito.scss";
-@import "./pages/products/huatia.scss";
-@import "./pages/products/chicharron-de-chancho.scss";
-@import "./pages/products/chicharron-de-alpaca.scss";
-@import "./pages/products/chairo.scss";
-@import "./pages/products/agua-de-cebada.scss";
-@import "./pages/products/chupe-de-quinua.scss";
-@import "./pages/products/sudado-de-trucha.scss";
+@import "./components/products.scss";
+@import "./components/product-typical-dish.scss";

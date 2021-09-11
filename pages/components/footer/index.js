@@ -1,14 +1,13 @@
 const Footer = () => {
   return (
     <div className="footer-munay-mikhuy-anka">
-      <div className="container-responsive">
+      <div className="container-responsive footer-content-style">
         <p>
-          Copyright © 2021 <span>Munay Mikhuy Anka</span>
+          {"{"}Developed by{" "}
+          <a href="https://abrahamcalsin.com" target="__blank">
+            Abraham Calsin{"}"}
+          </a>
         </p>
-        {/* <p>
-          {"{"}Developed by <span>Abraham Calsin</span>
-          {"}"}
-        </p> */}
       </div>
     </div>
   );

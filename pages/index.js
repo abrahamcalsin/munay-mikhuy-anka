@@ -1,15 +1,11 @@
 import MainLayout from "./components/layouts";
 import Head from "next/dist/shared/lib/head";
-import Image from "next/image";
 import Link from "next/dist/client/link";
+import { Products } from "./components/products";
 // Font Awesome Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faFacebookF, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import {
-  faStar,
-  faLongArrowAltRight,
-  faMapMarkerAlt,
-} from "@fortawesome/free-solid-svg-icons";
+import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
@@ -25,28 +21,20 @@ export default function Home() {
         </div>
         <div className="social-media">
           <div></div>
-          <a
-            href="https://instagram.com/munaymikhuyanka?utm_medium=copy_link"
-            className="social-media-icon"
-            target="__blank"
-          >
+          <a href="#" className="social-media-icon" target="__blank">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
-          <a
-            href="https://www.facebook.com/Munay-Mikhuy-Anka-108533731563552/"
-            className="social-media-icon"
-            target="__blank"
-          >
+          <a href="#" className="social-media-icon" target="__blank">
             <FontAwesomeIcon icon={faFacebookF} />
           </a>
-          <a href="https://bit.ly/3oDLyP6" className="social-media-icon" target="__blank">
+          <a href="#" className="social-media-icon" target="__blank">
             <FontAwesomeIcon icon={faWhatsapp} />
           </a>
         </div>
       </div>
 
       <div className="logo-and-restaurant-description">
-        <div className="container-responsive">
+        <div className="container-responsive flex-logo-and-description">
           <div className="logo-on-box">
             <img src="/images/logo-munay-mikhuy-anka.png" alt="Munay Mikhuy Anka" />
           </div>
@@ -66,25 +54,12 @@ export default function Home() {
                 </span>
               </a>
             </Link>
-            <div className="place-of-order-fulfillment">
-              <a
-                href="https://www.google.com/maps/place/Puno/@-15.8467711,-70.0514078,13z/data=!3m1!4b1!4m5!3m4!1s0x915d6985f4e74135:0x1e341dd8f24d32cf!8m2!3d-15.8402218!4d-70.0218805"
-                target="__blank"
-                rel="noreferrer"
-                title="Ver Puno en Google Maps"
-              >
-                <span>
-                  <FontAwesomeIcon icon={faMapMarkerAlt} />
-                </span>
-                Pedidos solo en Puno - Perú
-              </a>
-            </div>
           </div>
         </div>
       </div>
 
       <div className="dishes-description">
-        <div className="container-responsive">
+        <div className="container-responsive grid-dish-description">
           <div className="dish-description">
             <div className="photo-typical-dish">
               <img src="/images/platos-tipicos/ispi-frito.png" alt="Ispi Frito" />
@@ -128,166 +103,44 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="most-important-dishes">
+      <div className="typical-dishes">
         <div className="container-responsive">
           <div className="section-title">
             <h1>PLATOS TÍPICOS DESTACADOS</h1>
           </div>
-
-          <div className="grid-of-featured-dish">
-            <div className="featured-dish">
-              <div className="photo-typical-dish">
-                <img src="/images/platos-tipicos/chairo.png" alt="Chairo" />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Chairo</h1>
-                <div className="chairo-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/chairo">
-                  <a className="link-view-more">
-                    Más sobre Chairo{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="featured-dish">
-              <div className="photo-typical-dish">
-                <img
-                  src="/images/platos-tipicos/pesque-de-quinua.png"
-                  alt="Pesque de Quinua"
-                />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Pesque de Quinua</h1>
-                <div className="pesque-de-quinua-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/pesque-de-quinua">
-                  <a className="link-view-more">
-                    Más sobre Pesque de Quinua{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="featured-dish">
-              <div className="photo-typical-dish">
-                <img src="/images/platos-tipicos/trucha-frita.png" alt="Trucha Frita" />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Trucha Frita</h1>
-                <div className="trucha-frita-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/trucha-frita">
-                  <a className="link-view-more">
-                    Más sobre Trucha Frita{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="featured-dish">
-              <div className="photo-typical-dish">
-                <img
-                  src="/images/platos-tipicos/chicharrón-de-alpaca.png"
-                  alt="Chicharrón de Alpaca"
-                />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Chicharrón de Alpaca</h1>
-                <div className="chicharron-de-alpaca-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/chicharron-de-alpaca">
-                  <a className="link-view-more">
-                    Más sobre Chicharrón de Alpaca{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
+          <div className="typical-dishes-grid">
+            <Products
+              srcImageProduct="/images/platos-tipicos/chairo.png"
+              altImage="Chairo"
+              titleProduct="Chairo"
+              classNameStarRating="chairo-star-rating"
+              hrefProductPage="/productos/chairo"
+              nameProduct="Chairo"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/pesque-de-quinua.png"
+              altImage="Pesque de Quinua"
+              titleProduct="Pesque de Quinua"
+              classNameStarRating="pesque-de-quinua-star-rating"
+              hrefProductPage="/productos/pesque-de-quinua"
+              nameProduct="Pesque de Quinua"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/trucha-frita.png"
+              altImage="Trucha Frita"
+              titleProduct="Trucha Frita"
+              classNameStarRating="trucha-frita-star-rating"
+              hrefProductPage="/productos/trucha-frita"
+              nameProduct="Trucha Frita"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/chicharrón-de-alpaca.png"
+              altImage="Chicharrón de Alpaca"
+              titleProduct="Chicharrón de Alpaca"
+              classNameStarRating="chicharron-de-alpaca-star-rating"
+              hrefProductPage="/productos/chicharron-de-alpaca"
+              nameProduct="Chicharrón de Alpaca"
+            />
           </div>
         </div>
       </div>
@@ -301,7 +154,7 @@ export default function Home() {
       </div>
 
       <div className="famous-quotes">
-        <div className="container-responsive">
+        <div className="container-responsive grid-famous-quote">
           <blockquote className="quote">
             <span>{' " '}</span>
             La excelencia está en la diversidad y el modo de progresar es conocer y

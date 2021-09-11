@@ -5,15 +5,17 @@
   background-color: #fff;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   color: #3b3d44;
-  padding: 6px 25px 6px 20px;
+  padding: 6px 20px 6px 20px;
   z-index: 9;
   transition: all 0.3s ease;
 
-  .container-responsive {
+  .container-nav-mobile {
     margin: auto;
     max-width: 80rem;
-    padding-left: 5px;
     padding-right: 5px;
+  }
+
+  .flex-menu-navbar-mobile {
     display: flex;
     justify-content: space-between;
     align-items: center;

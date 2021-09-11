@@ -165,60 +165,13 @@
         margin-left: 7px;
       }
     }
-
-    .place-of-order-fulfillment {
-      margin-top: 35px;
-      display: flex;
-
-      a {
-        position: relative;
-        padding: 10px 15px 10px 15px;
-        border-radius: 5px;
-        background: rgba(0, 0, 0, 0.1);
-        font-size: 14px;
-        color: #4d4d44;
-        font-weight: 700;
-        transition: 0.3s ease-in-out;
-
-        &:hover {
-          background: #4d4d44;
-          color: #ffff;
-        }
-
-        &::before {
-          position: absolute;
-          width: 102%;
-          height: 100%;
-          padding: 22px 0;
-          content: " ";
-          top: -3px;
-          left: -3px;
-          background: rgba(0, 0, 0, 0.1);
-          border-radius: 5px;
-          z-index: -9;
-        }
-
-        span {
-          margin-right: 10px;
-        }
-      }
-    }
-  }
-
-  .container-responsive {
-    margin: auto;
-    max-width: 80rem;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
   }
 
   @media (min-width: 1000px) {
     & {
       margin-top: 90px;
 
-      .container-responsive {
+      .flex-logo-and-description {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -298,20 +251,11 @@
     }
   }
 
-  .container-responsive {
-    margin: auto;
-    max-width: 80rem;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
   @media (min-width: 100px) {
     & {
       margin-top: 90px;
 
-      .container-responsive {
+      .grid-dish-description {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
         align-items: start;
@@ -328,122 +272,6 @@
           font-size: 18px;
           margin-top: 15px;
           line-height: 1.4;
-        }
-      }
-    }
-  }
-}
-
-.most-important-dishes {
-  margin-top: 20px;
-
-  .section-title {
-    margin-bottom: 25px;
-    text-align: center;
-    font-size: 16px;
-
-    h1 {
-      margin: 0;
-      font-weight: 900;
-      line-height: 1;
-    }
-  }
-
-  .grid-of-featured-dish {
-    .photo-typical-dish {
-      max-width: 100%;
-      width: 100%;
-      border-radius: 13px;
-      overflow: hidden;
-      box-shadow: rgb(0 0 0 / 20%) 0px 5px 25px;
-
-      img {
-        width: 100%;
-        display: block;
-      }
-    }
-
-    .featured-dish {
-      margin-top: 50px;
-
-      &:first-child {
-        margin-top: 0;
-      }
-
-      .product-typical-dish-rating {
-        margin-top: 15px;
-
-        h1 {
-          margin: 0;
-          font-size: 25px;
-          font-weight: 800;
-        }
-
-        .link-view-more {
-          background: #503106;
-          padding: 8px 13px;
-          border-radius: 999px;
-          color: #fff;
-          text-decoration: none;
-          font-size: 11px;
-          transition: all 0.3s ease-in-out;
-
-          &:hover {
-            text-decoration: underline;
-          }
-
-          span {
-            margin-left: 3px;
-            transition: all 0.3s ease;
-          }
-          &:hover span {
-            margin-left: 7px;
-          }
-        }
-      }
-    }
-  }
-
-  .container-responsive {
-    margin: auto;
-    max-width: 80rem;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  @media (min-width: 1000px) {
-    & {
-      margin-top: 100px;
-
-      .section-title {
-        font-size: 25px;
-      }
-
-      .grid-of-featured-dish {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-        align-items: start;
-        grid-gap: 80px;
-        gap: 55px;
-
-        .featured-dish {
-          margin-top: 0;
-
-          div {
-            .link-view-more {
-              padding: 10px 13px;
-            }
-          }
-          div:first-child {
-            margin-top: 40px;
-          }
-
-          .photo-typical-dish {
-            border-radius: 13px;
-            overflow: hidden;
-          }
         }
       }
     }
@@ -517,7 +345,7 @@
 }
 
 .famous-quotes {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 
   .quote {
     font-size: 15px;
@@ -540,20 +368,11 @@
     }
   }
 
-  .container-responsive {
-    margin: auto;
-    max-width: 80rem;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
   @media (min-width: 1000px) {
     & {
       margin-bottom: 100px;
 
-      .container-responsive {
+      .grid-famous-quote {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
         align-items: start;

@@ -18,21 +18,13 @@ const CulturaPuneña = () => {
         </div>
         <div className="social-media">
           <div></div>
-          <a
-            href="https://instagram.com/munaymikhuyanka?utm_medium=copy_link"
-            className="social-media-icon"
-            target="__blank"
-          >
+          <a href="#" className="social-media-icon" target="__blank">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
-          <a
-            href="https://www.facebook.com/Munay-Mikhuy-Anka-108533731563552/"
-            className="social-media-icon"
-            target="__blank"
-          >
+          <a href="#" className="social-media-icon" target="__blank">
             <FontAwesomeIcon icon={faFacebookF} />
           </a>
-          <a href="https://bit.ly/3oDLyP6" className="social-media-icon" target="__blank">
+          <a href="#" className="social-media-icon" target="__blank">
             <FontAwesomeIcon icon={faWhatsapp} />
           </a>
         </div>

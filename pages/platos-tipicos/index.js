@@ -1,10 +1,9 @@
-import MainLayout from "../components/layouts";
 import Head from "next/dist/shared/lib/head";
-import Link from "next/link";
+import MainLayout from "../components/layouts";
+import { Products } from "../components/products";
 // Font Awesome Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faFacebookF, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { faStar, faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 
 const PlatosTipicos = () => {
   return (
@@ -19,926 +18,183 @@ const PlatosTipicos = () => {
         </div>
         <div className="social-media">
           <div></div>
-          <a
-            href="https://instagram.com/munaymikhuyanka?utm_medium=copy_link"
-            className="social-media-icon"
-            target="__blank"
-          >
+          <a href="#" className="social-media-icon" target="__blank">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
-          <a
-            href="https://www.facebook.com/Munay-Mikhuy-Anka-108533731563552/"
-            className="social-media-icon"
-            target="__blank"
-          >
+          <a href="#" className="social-media-icon" target="__blank">
             <FontAwesomeIcon icon={faFacebookF} />
           </a>
-          <a href="https://bit.ly/3oDLyP6" className="social-media-icon" target="__blank">
+          <a href="#" className="social-media-icon" target="__blank">
             <FontAwesomeIcon icon={faWhatsapp} />
           </a>
         </div>
       </div>
 
-      <div className="all-typical-dishes">
+      <div className="typical-dishes">
         <div className="container-responsive">
           <p className="description-section">TODOS LOS PLATOS TÍPICOS</p>
 
           <div className="typical-dishes-grid">
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img src="/images/platos-tipicos/chairo.png" alt="Chairo" />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Chairo</h1>
-                <div className="chairo-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/chairo">
-                  <a className="link-view-more">
-                    Más sobre Chairo{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img
-                  src="/images/platos-tipicos/pesque-de-quinua.png"
-                  alt="Pesque de Quinua"
-                />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Pesque de Quinua</h1>
-                <div className="pesque-de-quinua-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/pesque-de-quinua">
-                  <a className="link-view-more">
-                    Más sobre Pesque de Quinua{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img src="/images/platos-tipicos/trucha-frita.png" alt="Trucha Frita" />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Trucha Frita</h1>
-                <div className="trucha-frita-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/trucha-frita">
-                  <a className="link-view-more">
-                    Más sobre Trucha Frita{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img
-                  src="/images/platos-tipicos/chicharrón-de-alpaca.png"
-                  alt="Chicharrón de Alpaca"
-                />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Chicharrón de Alpaca</h1>
-                <div className="chicharron-de-alpaca-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/chicharron-de-alpaca">
-                  <a className="link-view-more">
-                    Más sobre Chicharrón de Alpaca{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img
-                  src="/images/platos-tipicos/tostado-de-trigo.png"
-                  alt="Tostado de Trigo"
-                />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Tostado de Trigo</h1>
-                <div className="tostado-de-trigo-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/tostado-de-trigo">
-                  <a className="link-view-more">
-                    Más sobre Tostado de Trigo{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img
-                  src="/images/platos-tipicos/torta-de-quinua.png"
-                  alt="Torta de Quinua"
-                />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Torta de Quinua</h1>
-                <div className="torta-de-quinua-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/torta-de-quinua">
-                  <a className="link-view-more">
-                    Más sobre Torta de Quinua{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img src="/images/platos-tipicos/togto.png" alt="Togto" />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Togto</h1>
-                <div className="togto-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/togto">
-                  <a className="link-view-more">
-                    Más sobre Togto{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img
-                  src="/images/platos-tipicos/thimpo-de-trucha.png"
-                  alt="Thimpo de Trucha"
-                />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Thimpo de Trucha</h1>
-                <div className="thimpo-de-trucha-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/thimpo-de-trucha">
-                  <a className="link-view-more">
-                    Más sobre Thimpo de Trucha{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img
-                  src="/images/platos-tipicos/thimpo-de-carachi.png"
-                  alt="Thimpo de Carachi"
-                />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Thimpo de Carachi</h1>
-                <div className="thimpo-de-carachi-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/thimpo-de-carachi">
-                  <a className="link-view-more">
-                    Más sobre Thimpo de Carachi{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img src="/images/platos-tipicos/tarwi.png" alt="Tarwi" />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Tarwi</h1>
-                <div className="tarwi-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/tarwi">
-                  <a className="link-view-more">
-                    Más sobre Tarwi{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img
-                  src="/images/platos-tipicos/sopa-de-quinua.png"
-                  alt="Sopa de Quinua"
-                />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Sopa de Quinua</h1>
-                <div className="sopa-de-quinua-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/sopa-de-quinua">
-                  <a className="link-view-more">
-                    Más sobre Sopa de Quinua{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img src="/images/platos-tipicos/soltero.png" alt="Soltero" />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Soltero</h1>
-                <div className="soltero-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/soltero">
-                  <a className="link-view-more">
-                    Más sobre Soltero{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img
-                  src="/images/platos-tipicos/pejerrey-frito.png"
-                  alt="Pejerrey Frito"
-                />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Pejerrey Frito</h1>
-                <div className="pejerrey-frito-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/pejerrey-frito">
-                  <a className="link-view-more">
-                    Más sobre Pejerrey Frito{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img
-                  src="/images/platos-tipicos/mazamorra-de-quinua.png"
-                  alt="Mazamorra de Quinua"
-                />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Mazamorra de Quinua</h1>
-                <div className="mazamorra-de-quinua-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/mazamorra-de-quinua">
-                  <a className="link-view-more">
-                    Más sobre Mazamorra de Quinua{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img src="/images/platos-tipicos/quispiña.png" alt="Quispiña" />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Quispiña</h1>
-                <div className="quispiña-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/quispina">
-                  <a className="link-view-more">
-                    Más sobre {"Quispiña "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img
-                  src="/images/platos-tipicos/kankacho-ayavireño.png"
-                  alt="Kankacho Ayavireño"
-                />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Kankacho Ayavireño</h1>
-                <div className="kankacho-ayavireño-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/kankacho-ayavireno">
-                  <a className="link-view-more">
-                    Más sobre Kankacho Ayavireño{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img
-                  src="/images/platos-tipicos/jugo-de-quinua.png"
-                  alt="Jugo de Quinua"
-                />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Jugo de Quinua</h1>
-                <div className="jugo-de-quinua-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/jugo-de-quinua">
-                  <a className="link-view-more">
-                    Más sobre Jugo de Quinua{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img src="/images/platos-tipicos/ispi-frito.png" alt="Ispi Frito" />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Ispi Frito</h1>
-                <div className="ispi-frito-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/ispi-frito">
-                  <a className="link-view-more">
-                    Más sobre Ispi Frito{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img src="/images/platos-tipicos/huatia.png" alt="Huatia" />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Huatia</h1>
-                <div className="huatia-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/huatia">
-                  <a className="link-view-more">
-                    Más sobre Huatia{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img
-                  src="/images/platos-tipicos/chicharron-de-chancho.png"
-                  alt="Chicharrón de Chancho"
-                />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Chicharrón de Chancho</h1>
-                <div className="chicharron-de-chancho-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/chicharron-de-chancho">
-                  <a className="link-view-more">
-                    Más sobre Chicharrón de Chancho{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img
-                  src="/images/platos-tipicos/agua-de-cebada.png"
-                  alt="Agua de Cebada"
-                />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Agua de Cebada</h1>
-                <div className="agua-de-cebada-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/agua-de-cebada">
-                  <a className="link-view-more">
-                    Más sobre Agua de Cebada{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img
-                  src="/images/platos-tipicos/chupe-de-quinua.png"
-                  alt="Chupe de Quinua"
-                />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Chupe de Quinua</h1>
-                <div className="chupe-de-quinua-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/chupe-de-quinua">
-                  <a className="link-view-more">
-                    Más sobre Chupe de Quinua{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="typical-dish">
-              <div className="photo-typical-dish">
-                <img
-                  src="/images/platos-tipicos/sudado-de-trucha.png"
-                  alt="Chupe de Quinua"
-                />
-              </div>
-              <div className="product-typical-dish-rating">
-                <h1>Sudado de Trucha</h1>
-                <div className="sudado-de-trucha-star-rating">
-                  <p>
-                    <span>Valoración:</span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                    <span className="star-icon">
-                      <FontAwesomeIcon icon={faStar} />
-                    </span>
-                  </p>
-                </div>
-                <Link href="/productos/sudado-de-trucha">
-                  <a className="link-view-more">
-                    Más sobre Sudado de Trucha{" "}
-                    <span>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
+            <Products
+              srcImageProduct="/images/platos-tipicos/chairo.png"
+              altImage="Chairo"
+              classNameStarRating="chairo-star-rating"
+              titleProduct="Chairo"
+              hrefProductPage="/productos/chairo"
+              nameProduct="Chairo"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/pesque-de-quinua.png"
+              altImage="Pesque de Quinua"
+              classNameStarRating="pesque-de-quinua-star-rating"
+              titleProduct="Pesque de Quinua"
+              hrefProductPage="/productos/pesque-de-quinua"
+              nameProduct="Pesque de Quinua"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/trucha-frita.png"
+              altImage="Trucha Frita"
+              classNameStarRating="trucha-frita-star-rating"
+              titleProduct="Trucha Frita"
+              hrefProductPage="/productos/trucha-frita"
+              nameProduct="Trucha Frita"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/chicharrón-de-alpaca.png"
+              altImage="Chicharrón de Alpaca"
+              classNameStarRating="chicharron-de-alpaca-star-rating"
+              titleProduct="Chicharrón de Alpaca"
+              hrefProductPage="/productos/chicharron-de-alpaca"
+              nameProduct="Chicharrón de Alpaca"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/tostado-de-trigo.png"
+              altImage="Tostado de Trigo"
+              classNameStarRating="tostado-de-trigo-star-rating"
+              titleProduct="Tostado de Trigo"
+              hrefProductPage="/productos/tostado-de-trigo"
+              nameProduct="Tostado de Trigo"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/torta-de-quinua.png"
+              altImage="Torta de Quinua"
+              classNameStarRating="torta-de-quinua-star-rating"
+              titleProduct="Torta de Quinua"
+              hrefProductPage="/productos/torta-de-quinua"
+              nameProduct="Torta de Quinua"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/togto.png"
+              altImage="Togto"
+              classNameStarRating="togto-star-rating"
+              titleProduct="Togto"
+              hrefProductPage="/productos/togto"
+              nameProduct="Togto"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/thimpo-de-trucha.png"
+              altImage="Thimpo de Trucha"
+              classNameStarRating="thimpo-de-trucha-star-rating"
+              titleProduct="Thimpo de Trucha"
+              hrefProductPage="/productos/thimpo-de-trucha"
+              nameProduct="Thimpo de Trucha"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/thimpo-de-carachi.png"
+              altImage="Thimpo de Carachi"
+              classNameStarRating="thimpo-de-carachi-star-rating"
+              titleProduct="Thimpo de Carachi"
+              hrefProductPage="/productos/thimpo-de-carachi"
+              nameProduct="Thimpo de Carachi"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/tarwi.png"
+              altImage="Tarwi"
+              classNameStarRating="tarwi-star-rating"
+              titleProduct="Tarwi"
+              hrefProductPage="/productos/tarwi"
+              nameProduct="Tarwi"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/sopa-de-quinua.png"
+              altImage="Sopa de Quinua"
+              classNameStarRating="sopa-de-quinua-star-rating"
+              titleProduct="Sopa de Quinua"
+              hrefProductPage="/productos/sopa-de-quinua"
+              nameProduct="Sopa de Quinua"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/soltero.png"
+              altImage="Soltero"
+              classNameStarRating="soltero-star-rating"
+              titleProduct="Soltero"
+              hrefProductPage="/productos/soltero"
+              nameProduct="Soltero"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/pejerrey-frito.png"
+              altImage="Pejerrey Frito"
+              classNameStarRating="pejerrey-frito-star-rating"
+              titleProduct="Pejerrey Frito"
+              hrefProductPage="/productos/pejerrey-frito"
+              nameProduct="Pejerrey Frito"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/mazamorra-de-quinua.png"
+              altImage="Mazamorra de Quinua"
+              classNameStarRating="mazamorra-de-quinua-star-rating"
+              titleProduct="Mazamorra de Quinua"
+              hrefProductPage="/productos/mazamorra-de-quinua"
+              nameProduct="Mazamorra de Quinua"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/quispiña.png"
+              altImage="Quispiña"
+              classNameStarRating="quispiña-star-rating"
+              titleProduct="Quispiña"
+              hrefProductPage="/productos/quispina"
+              nameProduct="Quispiña"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/kankacho-ayavireño.png"
+              altImage="Kankacho Ayavireño"
+              classNameStarRating="kankacho-ayavireño-star-rating"
+              titleProduct="Kankacho Ayavireño"
+              hrefProductPage="/productos/kankacho-ayavireno"
+              nameProduct="Kankacho Ayavireño"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/ispi-frito.png"
+              altImage="Ispi Frito"
+              classNameStarRating="ispi-frito-star-rating"
+              titleProduct="Ispi Frito"
+              hrefProductPage="/productos/ispi-frito"
+              nameProduct="Ispi Frito"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/huatia.png"
+              altImage="Huatia"
+              classNameStarRating="huatia-star-rating"
+              titleProduct="Huatia"
+              hrefProductPage="/productos/huatia"
+              nameProduct="Huatia"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/chupe-de-quinua.png"
+              altImage="Chupe de Quinua"
+              classNameStarRating="chupe-de-quinua-star-rating"
+              titleProduct="Chupe de Quinua"
+              hrefProductPage="/productos/chupe-de-quinua"
+              nameProduct="Chupe de Quinua"
+            />
+            <Products
+              srcImageProduct="/images/platos-tipicos/sudado-de-trucha.png"
+              altImage="Sudado de Trucha"
+              classNameStarRating="sudado-de-trucha-star-rating"
+              titleProduct="Sudado de Trucha"
+              hrefProductPage="/productos/sudado-de-trucha"
+              nameProduct="Sudado de Trucha"
+            />
           </div>
         </div>
       </div>

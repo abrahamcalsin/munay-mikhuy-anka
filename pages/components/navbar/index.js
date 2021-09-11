@@ -11,11 +11,13 @@ const NavTabLink = (props) => {
   const activelinkSelect = router.pathname === href;
 
   return (
-    <Link href={href}>
-      <a className={clsx("navTabLink", activelinkSelect && "activeNavTabLink")}>
-        {contentLink}
-      </a>
-    </Link>
+    <li className={clsx("menu-link")}>
+      <Link href={href}>
+        <a className={clsx("navTabLink", activelinkSelect && "activeNavTabLink")}>
+          {contentLink}
+        </a>
+      </Link>
+    </li>
   );
 };
 
@@ -30,7 +32,6 @@ const Navbar = () => {
         setNavbar(false);
       }
     };
-
     window.addEventListener("scroll", navbarStickyActive);
 
     return () => {
@@ -45,7 +46,8 @@ const Navbar = () => {
           navbar ? "navbar-sticky-desktop navbar-sticky-active" : "navbar-sticky-desktop"
         }
       >
-        <div className="container-responsive">
+        {/* --- Desktop --- */}
+        <div className="container-responsive flex-links-navbar-desk">
           <div>
             <Link href="/">
               <a className="logo-color-product logo-munay-mikhuy-anka">
@@ -56,24 +58,16 @@ const Navbar = () => {
           </div>
 
           <ul className="container-menu-desk">
-            <li className="menu-link">
-              <NavTabLink href="/" contentLink="Inicio" />
-            </li>
-            <li className="menu-link">
-              <NavTabLink href="/platos-tipicos" contentLink="Platos Típicos" />
-            </li>
-            <li className="menu-link">
-              <NavTabLink href="/cultura-punena" contentLink="Cultura Puneña" />
-            </li>
-            <li className="menu-link">
-              <NavTabLink href="/sobre-nosotros" contentLink="Sobre Nosotros" />
-            </li>
+            <NavTabLink href="/" contentLink="Inicio" />
+            <NavTabLink href="/platos-tipicos" contentLink="Platos Típicos" />
+            <NavTabLink href="/cultura-punena" contentLink="Cultura Puneña" />
+            <NavTabLink href="/sobre-nosotros" contentLink="Sobre Nosotros" />
           </ul>
         </div>
       </div>
-      {/* ------ */}
+      {/* --- Mobile --- */}
       <div className="navbar-mobile">
-        <div className="container-responsive">
+        <div className="container-nav-mobile flex-menu-navbar-mobile">
           <div>
             <Link href="/">
               <a className="logo-munay-mikhuy-anka">
