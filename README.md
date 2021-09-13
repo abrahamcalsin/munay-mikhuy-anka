@@ -4,7 +4,7 @@
 <img src='https://i.ibb.co/6RH3yFP/typical-dishes-section.png'>
 <hr/>
 
-## Desarrollado con las tecnlogias:
+## Desarrollado con las tecnologías:
 
 - TypeScript
 - JavaScript
