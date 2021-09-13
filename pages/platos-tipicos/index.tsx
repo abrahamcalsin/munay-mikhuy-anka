@@ -6,7 +6,6 @@ import Head from "next/dist/shared/lib/head";
 import MainLayout from "~/components/layouts";
 import { Products } from "~/components/products";
 
-
 const PlatosTipicos = () => {
   return (
     <MainLayout>
