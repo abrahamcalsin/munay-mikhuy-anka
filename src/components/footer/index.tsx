@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container-responsive footer-content-style">
         <p>
           {"{"}Developed by{" "}
-          <a href="https://abrahamcalsin.com" target="__blank">
+          <a href="https://abrahamcalsin.com" target="_blank">
             Abraham Calsin{"}"}
           </a>
         </p>
