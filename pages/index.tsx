@@ -14,7 +14,7 @@ export default function Home() {
     <MainLayout>
       <Head>
         <title>Munay Mikhuy Anka</title>
-        <meta name="robots" content="noindex">
+        <meta name="robots" content="noindex" />
       </Head>
 
       <div className="home-presentation">
